@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ff"
+        android:scaleType="centerCrop"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="SELECT YOUR VILLAGE"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+
+
+    <TextView
+        android:id="@+id/vill"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="VILLAGE1"
+        android:textSize="20sp"
+        android:layout_marginTop="100dp"/>
+
+
+    <TextView
+        android:id="@+id/vill1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="VILLAGE2"
+        android:textSize="20sp"
+        android:layout_marginTop="150dp"/>
+
+    <TextView
+        android:id="@+id/vill2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="VILLAGE3"
+        android:textSize="20sp"
+        android:layout_marginTop="200dp"/>
+
+</RelativeLayout>
